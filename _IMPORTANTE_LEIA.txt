@@ -1,0 +1,25 @@
+Esse documento registra informações importantes para guiar em relação a aplicação do VodanBR do WordPress
+
+Arquivo SQL com o Banco, as configurações e páginas do Wordpress:
+vodanbrsite.sql
+
+É necessário subir esse banco para recuperar todo o progresso feito no Wordpress
+
+Painel de Login:
+http://localhost/wordpress/login/
+
+Usuário: Guste
+Senha: AdmVodanBR@123
+
+Invés do URL padrão, é usado o URL acima para evitar ataques DDOS. Uso do plugin WPS Hide Login.
+Após logar, pode ser usado o URL normal do Wordpress para acessar o painel de admin:
+http://localhost/wordpress/wp-admin/
+
+O usuário Admin está com esse nome porque era um caso de teste, mas infelizmente não consegui alterar.
+Por favor, altere o email desse usuário assim que possível.
+
+PLUGINS:
+
+Alguns plugins instalados ainda estão desativados porque falta a configuração após ser hospedado a um site.
+Cheque quais plugins são importantes para o uso da plataforma e os ative ou busque outras alternativas. 
+SEMPRE os mantenha atualizados, mesmo se tiverem desativados.
